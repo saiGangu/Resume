@@ -1,63 +1,125 @@
-<html lang="en">
- 
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resume.css">
+	<meta charset="utf-8">
+	<title>Responsive Resume UI Design in HTML and CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-<div class="right">
-            <div class="name">
-                <h1>Sai vara prasad gangu</h1>
-            </div>
 <body>
-  
-        <a href="mailto:nameizvaraprasad@gmail.com" target="_blank">
-            <p id="email">nameizvaraprasad@gmail.com</p>
-        </a>
-        <p id="contact">+91 9346769762</p>
-    </div>
-            <div class="Education">
-                <h2>Education</h2>
-                <table>
-                    <tr>
-                        <th>University/college  </th>
-                        <th>course</th>
-                        <th>Passing year  </th>
-                        <th>percentage/cgpa</th>                    
-                    </tr>
-                    <tr>
-                        <td>DVR&Dr.Hs Mic college of technology</td>
-                        <td>Btech (Information technology)</td>
-                        <td>2024</td>
-                        <td>8.2</td>
-                    </tr>
-                    <tr>
-                        <td>sri chaitanya junior college</td>
-                        <td>Intermediate(BIEAP)</td>
-                        <td>2020</td>
-                        <td>94.5%</td>
-                    </tr>
-                     <tr>
-                        <td>vignan high school</td>
-                        <td>ssc</td>
-                        <td>2018</td>
-                        <td>9.8gpa</td>
-                    </tr>
-                </table>
+
+
+		<div class="resume_bottom">
+			<div class="resume_item resume_namerole">
+				<div class="name">Sai vara prasad Gangu</div>
+				<div class="role">computer science Engineer</div>
+			</div>
+			<div class="resume_item resume_profile">
+				<div class="resume_title">Profile</div>
+				<div class="resume_info">An young and energetic lad...brought up in a competetive and disciplined 
+                                                 environment who always strives towards perfection.Personality with 
+                                                 responsibility and hardwork embedded with the Sincierity are two important
+                                                 qualities which distinguishes me from individuals. Love to keep myself 
+                                                 updated with the latest technologies and growing environment.</div>
+			</div>
+			<div class="resume_item resume_address">
+				<div class="resume_title">Address</div>
+				<div class="resume_info">
+					srikakulam,<br/>
+					Andhra pradesh<br/>
+					
+				</div>
+			</div>
+			<div class="resume_item resume_contact">
+				<div class="resume_title">Contact</div>
+				<div class="resume_info">
+					<div class="resume_subtitle">Phone</div>
+					<div class="resume_subinfo">+91 9346769762</div>
+				</div>
+				<div class="resume_info">
+					<div class="resume_subtitle">Email</div>
+					<div class="resume_subinfo">nameizvaraprasad@gmail.com</div>
+				</div>
+			</div>
+			<div class="resume_item resume_skills">
+				<div class="resume_title">Skills</div>
+				<div class="resume_info">
+					<div class="skills_list">
+						<div class="skills_left">HTML</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 90%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">CSS</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 80%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">Javascript</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 50%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">Python</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 70%"></span>
+							</p>
+						</div>
+					</div>
+                              <div class="skills_list">
+						<div class="skills_left">MySQL</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 80%"></span>
+							</p>
+						</div>
+				</div>
+			</div>
 		</div>
-		<div class="Skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li><b>Programming Languages :
-                      Python, Java</b></li>
-                    <li><b>Frontend : HTML, CSS,
-                      JavaScript</b></li>
-                    <li><b>Database : MySQL</b></li>
-                </ul>
-          </div>
-  		 <h3>Courses&Certifications</h3>
+	</div>
+	<div class="resume_right">
+		<div class="resume_item resume_namerole">
+			<div class="name">Sai vara prasad Gangu</div>
+			<div class="role">computer science Engineer</div>
+		</div>
+		<div class="resume_item resume_education">
+			<div class="resume_title">Education</div>
+			<div class="resume_info">
+				<div class="resume_data">
+					<div class="year">2020 - 2024</div>
+					<div class="content">
+						<p>Btech(Information technology)</p>
+						<p>DVR&Dr.HS Mic college of technology, cgpa:8.19</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year">2018 - 2020</div>
+					<div class="content">
+						<p>Intermediate(BIEAP)</p>
+						<p>Sri chaitanya junior college, percentage:94.5</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year">2018</div>
+					<div class="content">
+						<p>SSC</p>
+						<p>Vignan High school, gpa:9.8 </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		 <h3>Courses&Certifications</h3>
             <p>
             <ul>
                 <li>
@@ -66,12 +128,16 @@
                 <span id="course-name">Python </span> - Let's upgrade</li>
                 <li>
                 <span id="course-name">AI&ML –  </span>  AICTE</li>
-          <h3>Workshops</h3>
+              </ul>
+      </p>
+            <h3>Workshops</h3>
             <p>
             <ul>
                 <li>
                 <span id="workshop name">building applications with python</span> - Codegnan IT solutioons</li>
-             <div class="Hobbies">
+              </ul>
+      </p>
+        <div class="Hobbies">
                 <h2>Hobbies</h2>
                 <ul>
                     <li>Playing cricket</li>
@@ -85,12 +151,10 @@
                     <li>Initiator,efficient team player and leader</li>
                 </ul>
             </div>  
-              <h3>Declaration</h3>
+		  <h3>Declaration</h3>
             <p>
             I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief.</p>
-     </div>
-               
-                
-                  
-                
-                  </body>
+
+
+</body>
+</html>
